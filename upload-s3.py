@@ -21,7 +21,7 @@ def upload_with_content_type(file, full_key, auto):
 
 if __name__ == "__main__":
     s3 = boto3.resource('s3')
-    bucket = s3.Bucket('www.hashmapping.com')
+    bucket = s3.Bucket('aws-website-wwwbankcastingcom-t4fl8')
     for root, dirs, files in os.walk(os.getcwd() + '/s3site'):
         subdir = root[(len(os.getcwd())+len(OUTPUT_DIR)):len(root)]
         if subdir.startswith('/'):
