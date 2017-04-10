@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% block meta_header %}{% endblock %}
+  <link rel="shortcut icon" href="/img/logo.png">
+  <title>{% block title %}{% endblock %}Bankcasting</title>
+  <link href="/css/b.css" rel="stylesheet">
+</head>
+<body>
+  {% block banner %}{% endblock %}
+  <div class="container">
+    {% include "nav.html" %}
+    {% block content %}{% endblock %}
+    <hr/>
+  </div> 
+  {% block lower_banner %}{% endblock %}
+  {% include "googleanalytics.html" %}
+  {% block js %}{% endblock %}
+</body>
+</html>
