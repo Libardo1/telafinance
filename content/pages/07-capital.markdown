@@ -10,7 +10,7 @@ meta: Capital Ratios for Commercial Banks
 
 ## Common Equity Tier 1
 
-<img src="/source/static/img/capital/CET1Ratio15Q1to16Q4.png" width="100%" alt="Common Equity Tier 1 Ratio" class="technical-diagram">
+<img src="/img/capital/CET1Ratio15Q1to16Q4.png" width="100%" alt="Common Equity Tier 1 Ratio" class="technical-diagram">
 
 ## Tier 1 Capital
 
