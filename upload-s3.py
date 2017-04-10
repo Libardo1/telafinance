@@ -33,4 +33,3 @@ if __name__ == "__main__":
                     full_key = subdir + '/' + file
                 upload_with_content_type(file, full_key, auto)
 
-
