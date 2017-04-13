@@ -16,7 +16,7 @@ SITEMAP_SAVE_AS = 'sitemap.xml'
 FEED_DOMAIN = 'http://www.bankcasting.com'
 FEED_RSS = 'feed'
 
-BYLINE = '&copy; 2016 Luke Makai. All Rights Reserved.'
+BYLINE = '&copy; 2017 Luke Makai. All Rights Reserved.'
 LINKS = ()
 
 MARKUP = ('rst', 'markdown',)
