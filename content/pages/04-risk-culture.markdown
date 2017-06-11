@@ -35,4 +35,4 @@ Risk managers need to develop objective tools that allow for valid communication
 
 </p>
 ## Implementing Cultural Improvements
-A phrase that is often used in risk management is "tone at the top." Executives and senior management must have buy-in to any program if they expect it to take root amongst the staff of any institution. The tone set by management
+A phrase that is often used in risk management is "tone at the top." Executives and senior management must have buy-in to any program if they expect it to take root amongst the staff of any institution.
