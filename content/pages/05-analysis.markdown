@@ -8,4 +8,4 @@ meta: TBD
 
 # Analysis
 
-TBD
+Bankcasting uses historical analysis as a basis for future projection. Currently, major components of the balance sheet and income statement are covered in sections 3.1. and 3.2., respectively.

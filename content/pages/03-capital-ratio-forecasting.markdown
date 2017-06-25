@@ -8,4 +8,6 @@ meta: TBD
 
 # Capital Ratio Forecasting
 
-TBD
+## In Development
+
+The next major forecast release for Bankcasting will be a model for capital ratio projection. This forecast is currently under development and is coming soon!
