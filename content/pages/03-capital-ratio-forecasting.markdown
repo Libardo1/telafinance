@@ -8,6 +8,8 @@ meta: TBD
 
 # Capital Ratio Forecasting
 
-## In Development
+## Beta Model - Zeus v0.1
 
-The next major forecast release for Bankcasting will be a model for capital ratio projection. This forecast is currently under development and is coming soon!
+The results from the first iteration of the capital ratio forecasting model are now available based on 2017Q1 last actuals. Currently, only the baseline forecast is shown below. Further forecast development is ongoing.
+
+<img src="/img/capital-ratio-forecasting/ZeusV0.1-17Q1.PNG" width="100%" alt="Total Capital 2017Q1 Forecast" class="technical-diagram">
