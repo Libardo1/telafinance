@@ -18,24 +18,24 @@ meta: Here we cover the broader characteristics of the total banking income stat
 
 ## Interest Income and Expense
 
-<img src="/img/income-statement-analysis/IIandIE01Q1to16Q4.png" width="100%" alt="Interest Income and Expense" class="technical-diagram">
+<img src="/img/income-statement-analysis/IIandIE01Q1to16Q4.PNG" width="100%" alt="Interest Income and Expense" class="technical-diagram">
 
-<img src="/img/income-statement-analysis/IIComposition2016.png" width="100%" alt="Interest Income Composition" class="technical-diagram">
+<img src="/img/income-statement-analysis/IIComposition2016.PNG" width="100%" alt="Interest Income Composition" class="technical-diagram">
 
-<img src="/img/income-statement-analysis/IEComposition2016.png" width="100%" alt="Interest Expense Composition" class="technical-diagram">
+<img src="/img/income-statement-analysis/IEComposition2016.PNG" width="100%" alt="Interest Expense Composition" class="technical-diagram">
 
 ## Non-interest Income
 
-<img src="/img/income-statement-analysis/NII01Q1to16Q4.png" width="100%" alt="Non-interest Income" class="technical-diagram">
+<img src="/img/income-statement-analysis/NII01Q1to16Q4.PNG" width="100%" alt="Non-interest Income" class="technical-diagram">
 
-<img src="/img/income-statement-analysis/NIIComposition2016.png" width="100%" alt="Non-interest Income Composition" class="technical-diagram">
+<img src="/img/income-statement-analysis/NIIComposition2016.PNG" width="100%" alt="Non-interest Income Composition" class="technical-diagram">
 
 ## Non-interest Expense
 
-<img src="/img/income-statement-analysis/NIE01Q1to16Q4.png" width="100%" alt="Non-interest Expense" class="technical-diagram">
+<img src="/img/income-statement-analysis/NIE01Q1to16Q4.PNG" width="100%" alt="Non-interest Expense" class="technical-diagram">
 
-<img src="/img/income-statement-analysis/NIEComposition2016.png" width="100%" alt="Non-interest Expense Composition" class="technical-diagram">
+<img src="/img/income-statement-analysis/NIEComposition2016.PNG" width="100%" alt="Non-interest Expense Composition" class="technical-diagram">
 
 ## Provision
 
-<img src="/img/income-statement-analysis/Provision01Q1to16Q4.png" width="100%" alt="Provision" class="technical-diagram">
+<img src="/img/income-statement-analysis/Provision01Q1to16Q4.PNG" width="100%" alt="Provision" class="technical-diagram">

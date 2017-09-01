@@ -24,8 +24,8 @@ Using the FRB 2017 CCAR forecast scenarios, the Apollo forecast generates the fo
 
 The forecast produces reasonable results given the historical behavior of the time series. As the forecasting engine matures, additional components will be added and improved in an effort to continually enhance performance.
 
-<img src="/img/net-income-forecasting/ApolloV10-17Q2-Performance.png" width="100%" alt="Apollo Performance" class="technical-diagram">
+<img src="/img/net-income-forecasting/ApolloV10-17Q2-Performance.PNG" width="100%" alt="Apollo Performance" class="technical-diagram">
 
-<img src="/img/net-income-forecasting/NIWaterfall16Q4.png" width="100%" alt="Net Income Waterfall" class="technical-diagram">
+<img src="/img/net-income-forecasting/NIWaterfall16Q4.PNG" width="100%" alt="Net Income Waterfall" class="technical-diagram">
 
-<img src="/img/net-income-forecasting/NetIncomeHistogram2017Q1.png" width="100%" alt="Net Income Histogram" class="technical-diagram">
+<img src="/img/net-income-forecasting/NetIncomeHistogram2017Q1.PNG" width="100%" alt="Net Income Histogram" class="technical-diagram">
