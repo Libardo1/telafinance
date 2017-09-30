@@ -12,8 +12,8 @@ inception in June 2017.
 
 ## 2017
 
-### August
-* August 30, 2017 - Added a new section called "Other" where new topics that don't have an immediate section parent will be placed. Put up a 1,220 word introduction to model validation as page 4.1.
+### September
+* September 30, 2017 - Added a new section called "Other" where new topics that don't have an immediate section parent will be placed. Put up a 1,220 word introduction to model validation as page 4.1.
 
 ### August
 * August 31, 2017 - Added thirty additional data charts spread across the following pages: capital ratio forecasting (6), net income forecasting (3), analysis (6), balance sheet analysis (7), and income statement analysis (8).
