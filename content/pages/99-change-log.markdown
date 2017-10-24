@@ -12,6 +12,9 @@ inception in June 2017.
 
 ## 2017
 
+### October
+* October 24, 2017 - Added Tier 1 Capital Ratio forecast for 2017Q2 to the front page along with some additional language.
+
 ### September
 * September 30, 2017 - Added a new section called "Other" where new topics that don't have an immediate section parent will be placed. Put up a 1,220 word introduction to model validation as page 4.1.
 
