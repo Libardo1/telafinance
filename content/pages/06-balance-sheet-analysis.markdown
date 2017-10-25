@@ -12,7 +12,7 @@ meta: Here we cover the broader characteristics of the total banking balance she
 
 ### Growth
 
-<img src="/img/balance-sheet-analysis/AssetChange01Q1to17Q2.png" width="100%" alt="Total Assets" class="technical-diagram">
+<img src="/img/balance-sheet-analysis/AssetChange01Q1to17Q2.PNG" width="100%" alt="Total Assets" class="technical-diagram">
 
 A review of the change in assets on a quarterly basis shows a 3.47% annualized increase from 2017Q1 to 2017Q2. This is 153bp less than the previous quarter of 5.00%. This comes a bit under the average over the last four quarters of 4.32%. Another quarterly increase means a continuation of the quarterly asset-increase streak, which now stands at 17 consecutive quarters of growth. The last decrease came in 2013Q1.
 <p>
