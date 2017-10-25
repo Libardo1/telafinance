@@ -13,6 +13,8 @@ inception in June 2017.
 ## 2017
 
 ### October
+* October 25, 2017 - Refreshed two charts on the <a href="/balance-sheet-analysis.html">balance sheet analysis</a> page and added a 200 word language update.
+<p>
 * October 24, 2017 - Added Tier 1 Capital Ratio forecast for 2017Q2 to the front page along with some additional language.
 
 ### September
