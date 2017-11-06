@@ -15,3 +15,5 @@ The forecasting framework currently generates 148 separate banking metrics for t
 
 The latest results for the Tier 1 capital ratio forecast, using data up to and including 2017Q2, can be seen below.
 <img src="/img/introduction/ForecastT1CR2017Q2.PNG" width="100%" alt="T1 Capital Ratio 2017Q2 Forecast" class="technical-diagram">
+
+The forecasting and analysis framework drives the written content of this website. Articles feature commentary on both the future state of the banking sector and analysis on the past trends and relationships that have occured.

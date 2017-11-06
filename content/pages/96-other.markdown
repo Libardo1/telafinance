@@ -8,4 +8,4 @@ meta: Other topics on Bankcasting.
 
 # Other Topics
 
-Other topics that do not have their own section on the website can be found here.
+Topics that are important and related to bankcasting that are not neatly organized under the forecasting and analysis sections and presented here.

@@ -8,4 +8,4 @@ meta: Introduction to Bankcasting's various forecasts.
 
 # Forecasting
 
-Bankcasting has officially released one forecast with several in development. Apollo v1.0 was developed prior to the release of 2017Q1 data and currently has one quarter of performance. The next major release will be Zues v1.0, which will forecast capital ratios.
+The future state of the banking sector is the primary focus of the articles in this section of the website. Forecasts are developed using historical data and forecasted macroeconomic scenarios. The future behavior, trends, and insights gathered from the forecasting framework are then organized and presented to provide practitioners with useful banking scenarios.
