@@ -17,7 +17,7 @@ meta: Here we introduce model validation, a critical aspect of the risk manageme
 <p>
 &#8729; Every validator should examine a model's development process, overall soundness, and limitations
 ---
-<img src="/img/model-validation/Validation.PNG" width="100%" alt="Validation Icons" class="technical-diagram">
+<img src="/img/model-validation/Validation.png" width="100%" alt="Validation Icons" class="technical-diagram">
 
 Here we introduce the basic concepts of model validation as it relates to the model risk management framework.
 
