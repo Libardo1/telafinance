@@ -92,3 +92,7 @@ The aforementioned guidance is merely an introduction and each model should be t
 <p>
 
 As with most things in life, the quality of a validation depends on the quality of the work put into it. Model risk can be managed to a finer degree when the right resources and right people are allocated to a job. Management can expect stronger, more robust, and better understood models with more credible results when validation is undertaken properly.
+
+---
+For any questions, comments, or inquiries related to this topic or any other on this site please reach out to: contact@bankcasting.com
+---
