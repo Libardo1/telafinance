@@ -7,7 +7,17 @@ sidebartitle: &nbsp; 4.1 Model Validation
 meta: Here we introduce model validation, a critical aspect of the risk management framework.
 
 
-# Model Validation
+# Three things every validator should consider
+
+---
+<p>
+&#8729; Model validation is as critical to the model lifecycle as development and maintenance
+<p>
+&#8729; A validator must test a model extensively to adequately assess performance and risk
+<p>
+&#8729; Every validator should examine a model's development process, overall soundness, and limitations
+---
+<img src="/img/model-validation/Validation.PNG" width="100%" alt="Validation Icons" class="technical-diagram">
 
 Here we introduce the basic concepts of model validation as it relates to the model risk management framework.
 

@@ -12,4 +12,4 @@ This is a running list of the major changes to Bankcasting since its inception i
 ## 2017
 
 ### November
-* November 6, 2017 - Bankcasting has been released with an introduction page and three sections for articles: forecasting, analysis, and other. One article for <a href="/model-validation.html">model validation</a> is currently available.
+* November 7, 2017 - Bankcasting has been released with an introduction page and three sections for articles: forecasting, analysis, and other. One article for <a href="/model-validation.html">model validation</a> is currently available.
