@@ -53,7 +53,7 @@ Reviewing the data component of a model involves reproducing the original data s
 Other components of a data review include error detection, variable reconstruction, and calculation consistency.
 </p>
 ### 2.2. Process Verification
-A validator should follow documentation and verify that the actual processing of the model operates as prescribed. Any gaps in a models operation or steps that involved some degree of judgement that are not documented should be identified. Documentation should capture a modeler's thought process and decision making and allow a reader to not only understand and but also to challenge. A model is not created in the absence of judgement but because of it. An inquiry into these judgements is key to a validation.
+A validator should follow documentation and verify that the actual processing of the model operates as prescribed. Any gaps in a models operation or steps that involved some degree of judgement that are not documented should be identified. Documentation should capture a modeler's thought process and decision making and allow a reader to not only understand but also to challenge. A model is not created in the absence of judgement but because of it. An inquiry into these judgements is key to a validation.
 
 ## 3. Soundness
 
@@ -95,3 +95,24 @@ As with most things in life, the quality of a validation depends on the quality 
 <p>
 <p>
 For any questions, comments, or inquiries related to this topic or any other on this site please reach out to: contact@bankcasting.com
+
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://bankcasting.us17.list-manage.com/subscribe/post?u=b3b11f090db9e2871e474b005&amp;id=204a12fade" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Bankcasting Insights. Just one email each week.</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b3b11f090db9e2871e474b005_204a12fade" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
