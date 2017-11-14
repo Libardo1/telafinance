@@ -106,7 +106,7 @@ For any questions, comments, or inquiries related to this topic or any other on 
 <div id="mc_embed_signup">
 <form action="https://bankcasting.us17.list-manage.com/subscribe/post?u=b3b11f090db9e2871e474b005&amp;id=204a12fade" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<label for="mce-EMAIL">Bankcasting Insights. Just one email each week.</label>
+	<label for="mce-EMAIL">Want to learn more? Bankcasting Insights. Just one email each week.</label>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b3b11f090db9e2871e474b005_204a12fade" tabindex="-1" value=""></div>
