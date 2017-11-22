@@ -13,7 +13,7 @@ This is a running list of the major changes to Bankcasting since its inception i
 
 ### November
 
-* November 21, 2017 - Added a new article covering critical phases of the <a href="/model-lifecycle.html">model lifeycle</a> has been added.
+* November 21, 2017 - Added a new article covering critical phases of the <a href="/model-lifecycle.html">model lifeycle</a>.
 
 * November 14, 2017 - An article analyzing the <a href="/profit-distribution.html">profit distribution</a> for banks has been added.
 
