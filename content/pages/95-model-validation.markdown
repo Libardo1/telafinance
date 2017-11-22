@@ -1,9 +1,9 @@
 ﻿title: Model Validation
 category: page
 slug: model-validation
-sortorder: 0402
+sortorder: 0403
 toc: True
-sidebartitle: &nbsp; 4.1 Model Validation
+sidebartitle: &nbsp; 4.2 Model Validation
 meta: Here we introduce model validation, a critical aspect of the risk management framework.
 
 
