@@ -4,16 +4,16 @@ slug: capital-ratio-forecasting
 sortorder: 0202
 toc: True
 sidebartitle: &nbsp; 2.1 Capital Ratio Forecasting
-meta: The latest capital ratio forecasts
+meta: The latest capital ratio forecasts from Bankcasting
 
-# The latest capital ratio forecasts from Bankcasting
+# The latest capital ratio forecasts
 ---
 
 &#8729; The latest forecasts for the overall banking tier 1 capital ratio are presented here
 
 &#8729; The ratio is composed of tier 1 capital over risk-weighted assets and is aggregated for 5,788 banks
 
-&#8729; The forecast horizon covers the next nine-quarters under three separate economic scenarios (baseline, adverse, and severely adverse) from the Federal Reserve
+&#8729; The forecast horizon covers the next nine quarters under three separate economic scenarios (baseline, adverse, and severely adverse) from the Federal Reserve
 
 ---
 
