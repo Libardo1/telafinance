@@ -11,7 +11,13 @@ This is a running list of the major changes to Bankcasting since its inception i
 
 ## 2017
 
+### December
+
+* December 5, 2017 - Added a new article: <a href="/do-banks-scale.html">Do banks scale?</a>.
+
 ### November
+
+* November 28, 2017 - The first forecasts for 2017Q3 are available. See <a href="/capital-ratio-forecasting.html">capital ratio forecasting</a> for details.
 
 * November 21, 2017 - Added a new article covering critical phases of the <a href="/model-lifecycle.html">model lifeycle</a>.
 
