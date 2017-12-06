@@ -4,12 +4,12 @@ slug: do-banks-scale
 sortorder: 0303
 toc: True
 sidebartitle: &nbsp; 3.2 Bank Scalability
-meta: Do banks scale?
+meta: Could too-big-to-fail be good for banks?
 
-# Do banks scale?
+# Could too-big-to-fail be good for banks?
 ---
 
-&#8729; Large banks are often chided for their status of being “too big to fail”
+&#8729; Large banks are often chided for their status of being “too-big-to-fail”
 
 &#8729; However, if economies of scale are at work there may be an economic efficiency with maintaining larger banks	
 
