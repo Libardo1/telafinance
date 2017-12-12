@@ -1,7 +1,7 @@
 title: Change Log
 category: page
 slug: change-log
-sortorder: 0503
+sortorder: 0603
 toc: false
 sidebartitle: Change Log
 meta: Find out what's new on Bankcasting.
@@ -12,6 +12,8 @@ This is a running list of the major changes to Bankcasting since its inception i
 ## 2017
 
 ### December
+
+* December 12, 2017 - Added a new website section for <a href="/market-data.html">market data</a>. The first subsection contains <a href="/total-asset-data.html">total assets for all holding companies above five billion for 2017Q3</a>.
 
 * December 5, 2017 - Added a new article: <a href="/do-banks-scale.html">Do banks scale?</a>.
 

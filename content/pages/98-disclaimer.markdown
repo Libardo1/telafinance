@@ -1,7 +1,7 @@
 title: Disclaimer
 category: page
 slug: disclaimer
-sortorder: 0502
+sortorder: 0602
 toc: false
 sidebartitle: Disclaimer
 meta: Legal disclaimer for bankcasting
