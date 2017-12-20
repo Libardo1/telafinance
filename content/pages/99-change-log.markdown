@@ -13,6 +13,8 @@ This is a running list of the major changes to Bankcasting since its inception i
 
 ### December
 
+* December 20, 2017 - Forecasts for the <a href="/balance-sheet-forecasting.html">balance sheet</a> are now available.
+
 * December 12, 2017 - Added a new website section for <a href="/market-data.html">market data</a>. The first subsection contains <a href="/total-asset-data.html">total assets for all holding companies above five billion for 2017Q3</a>.
 
 * December 5, 2017 - Added a new article: <a href="/do-banks-scale.html">Do banks scale?</a>.
@@ -21,7 +23,7 @@ This is a running list of the major changes to Bankcasting since its inception i
 
 * November 28, 2017 - The first forecasts for 2017Q3 are available. See <a href="/capital-ratio-forecasting.html">capital ratio forecasting</a> for details.
 
-* November 21, 2017 - Added a new article covering critical phases of the <a href="/model-lifecycle.html">model lifeycle</a>.
+* November 21, 2017 - Added a new article covering critical phases of the <a href="/model-lifecycle.html">model lifecycle</a>.
 
 * November 14, 2017 - An article analyzing the <a href="/profit-distribution.html">profit distribution</a> for banks has been added.
 
