@@ -13,6 +13,8 @@ This is a running list of the major changes to Bankcasting since its inception i
 
 ### December
 
+* December 26, 2017 - New market data available for <a href="/net-income-data.html">net income and return on assets</a>.
+
 * December 20, 2017 - Forecasts for the <a href="/balance-sheet-forecasting.html">balance sheet</a> are now available.
 
 * December 12, 2017 - Added a new website section for <a href="/market-data.html">market data</a>. The first subsection contains <a href="/total-asset-data.html">total assets for all holding companies above five billion for 2017Q3</a>.
