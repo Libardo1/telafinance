@@ -9,6 +9,12 @@ meta: Find out what's new on Bankcasting.
 # Change Log
 This is a running list of the major changes to Bankcasting since its inception in November 2017. 
 
+## 2018
+
+### January
+
+* January 2, 2017 - Forecasts for the <a href="/income-statement-forecasting.html">income statement</a> are now available.
+
 ## 2017
 
 ### December
