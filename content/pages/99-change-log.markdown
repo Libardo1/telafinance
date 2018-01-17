@@ -13,7 +13,9 @@ This is a running list of the major changes to Bankcasting since its inception i
 
 ### January
 
-* January 2, 2018 - Added a new article: <a href="/frb-gdp-analysis.html">GDP Analysis for the CCAR Scenarios</a>.
+* January 16, 2018 - A <a href="/glossary.html">Glossary</a> has been added.
+
+* January 9, 2018 - Added a new article: <a href="/frb-gdp-analysis.html">GDP Analysis for the CCAR Scenarios</a>.
 
 * January 2, 2018 - Forecasts for the <a href="/income-statement-forecasting.html">income statement</a> are now available.
 
