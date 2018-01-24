@@ -13,6 +13,8 @@ This is a running list of the major changes to Bankcasting since its inception i
 
 ### January
 
+* January 23, 2018 - A new page with analysis of <a href="/provision-analysis.html">charge-offs, provision, and ALLL</a> has been added.
+
 * January 16, 2018 - A <a href="/glossary.html">Glossary</a> has been added.
 
 * January 9, 2018 - Added a new article: <a href="/frb-gdp-analysis.html">GDP Analysis for the CCAR Scenarios</a>.
