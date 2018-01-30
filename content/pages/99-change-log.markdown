@@ -13,6 +13,8 @@ This is a running list of the major changes to Bankcasting since its inception i
 
 ### January
 
+* January 30, 2018 - New market data available for the <a href="/tier-one-ratio-data.html">tier one capital ratio</a>.
+
 * January 23, 2018 - A new page with analysis of <a href="/provision-analysis.html">charge-offs, provision, and ALLL</a> has been added.
 
 * January 16, 2018 - A <a href="/glossary.html">Glossary</a> has been added.
