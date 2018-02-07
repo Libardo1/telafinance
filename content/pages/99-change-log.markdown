@@ -11,6 +11,10 @@ This is a running list of the major changes to Bankcasting since its inception i
 
 ## 2018
 
+### February
+
+* February 6, 2018 - Bankcasting has a new front page! The site map is now available on the right and recommended articles follow the introduction.
+
 ### January
 
 * January 30, 2018 - New market data available for the <a href="/tier-one-ratio-data.html">tier one capital ratio</a>.
