@@ -13,6 +13,8 @@ This is a running list of the major changes to Bankcasting since its inception i
 
 ### February
 
+* February 20, 2018 - Added a section for trackers. The first tracker to be added is <a href="/gdptoday.html">GDPToday</a>.
+
 * February 6, 2018 - Bankcasting has a new front page! The site map is now available on the right and recommended articles follow the introduction.
 
 ### January

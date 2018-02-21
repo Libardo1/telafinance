@@ -1,6 +1,6 @@
 ﻿title: GDPToday
 category: page
-slug: gdp-today
+slug: gdptoday
 sortorder: 0602
 toc: True
 sidebartitle: &nbsp; 6.1 GDPToday
