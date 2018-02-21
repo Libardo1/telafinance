@@ -1,7 +1,7 @@
 ﻿title: Glossary
 category: page
 slug: glossary
-sortorder: 0604
+sortorder: 0704
 toc: false
 sidebartitle: Glossary
 meta: A glossary for the terms and acronyms used on Bankcasting.

@@ -1,7 +1,7 @@
 title: Change Log
 category: page
 slug: change-log
-sortorder: 0603
+sortorder: 0703
 toc: false
 sidebartitle: Change Log
 meta: Find out what's new on Bankcasting.

@@ -1,7 +1,7 @@
 ﻿title: About
 category: page
 slug: about
-sortorder: 0601
+sortorder: 0701
 toc: True
 sidebartitle: About
 meta: About bankcasting
