@@ -13,11 +13,11 @@ meta: Bankcasting's daily tracker for GDP
 
 &#8729; The forecast is updated every weekday that does not fall on a holiday
 
-&#8729; The current estimate for 2018Q1 GDP as of February 22, 2018 is 2.80
+&#8729; The current estimate for 2018Q1 GDP as of February 23, 2018 is 2.79
 
 ---
 
-<img src="/img/GDPToday/GDPToday 022218.PNG" width="100%" alt="Latest GDPToday Forecast" class="technical-diagram">
+<img src="/img/GDPToday/GDPToday 022318.PNG" width="100%" alt="Latest GDPToday Forecast" class="technical-diagram">
 
 
 For any questions, comments, or inquiries related to this topic or any other on this site please reach out to: contact@bankcasting.com
