@@ -11,6 +11,10 @@ This is a running list of the major changes to Bankcasting since its inception i
 
 ## 2018
 
+### March
+
+* March 1, 2018 - Added a new three-year forecast to <a href="/gdptoday.html">GDPToday</a>.
+
 ### February
 
 * February 20, 2018 - Added a section for trackers. The first tracker to be added is <a href="/gdptoday.html">GDPToday</a>.
