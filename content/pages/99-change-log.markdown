@@ -13,6 +13,8 @@ This is a running list of the major changes to Bankcasting since its inception i
 
 ### March
 
+* March 7, 2018 - Added a new three-year severe GDP forecast to <a href="/gdptoday.html">GDPToday</a>.
+
 * March 1, 2018 - Added a new three-year forecast to <a href="/gdptoday.html">GDPToday</a>.
 
 ### February
