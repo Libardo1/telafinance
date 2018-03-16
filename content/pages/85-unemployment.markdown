@@ -1,24 +1,23 @@
-﻿title: GDPToday
+﻿title: Unemployment
 category: page
-slug: gdptoday
-sortorder: 0602
+slug: unemployment
+sortorder: 0603
 toc: True
-sidebartitle: &nbsp; 6.1 GDPToday
-meta: Bankcasting's daily tracker for GDP
+sidebartitle: &nbsp; 6.2 Unemployment
+meta: Bankcasting's daily tracker for unemployment
 
-# GDPToday
+# Unemployment Tracker
 ---
 
-&#8729; GDPToday provides forecasted estimates for upcoming official GDP releases from the Bureau of Economic Analysis
+&#8729; The Bankcasting unemployment forecast provides future estimates for upcoming official unemployment releases from the Bureau of Labor Statistics
 
 &#8729; The forecast is updated every weekday that does not fall on a holiday
 
-&#8729; The current annualized estimate for 2018Q1 GDP as of March 16, 2018 is +2.45%. The current three-year forecast for GDP is +6.84%. The current three-year severe forecast for GDP is -5.56%.
+&#8729; The current estimate for unemployment as of March 16, 2018 is 4.1%. The current three-year average forecast for unemployment is 3.95%. The current three-year severe forecast for GDP is 7.91%.
 
 ---
 
-<img src="/img/GDPToday/GDPToday3Year.PNG" width="100%" alt="Latest GDPToday Three-year Forecast" class="technical-diagram">
-<img src="/img/GDPToday/GDPToday.PNG" width="100%" alt="Latest GDPToday Forecast" class="technical-diagram">
+<img src="/img/unemployment/Unemployment3Year.PNG" width="100%" alt="Latest Bankcasting Unemployment Three-year Forecast" class="technical-diagram">
 
 
 For any questions, comments, or inquiries related to this topic or any other on this site please reach out to: contact@bankcasting.com
