@@ -13,7 +13,7 @@ meta: Bankcasting's daily tracker for GDP
 
 &#8729; The forecast is updated every weekday that does not fall on a holiday
 
-&#8729; The current annualized estimate for 2018Q1 GDP as of March 16, 2018 is +2.45%. The current three-year forecast for GDP is +6.84%. The current three-year severe forecast for GDP is -5.56%.
+&#8729; The current annualized estimate for 2018Q1 GDP as of March 19, 2018 is +2.39%. The current three-year forecast for GDP is +6.62%. The current three-year severe forecast for GDP is -5.74%.
 
 ---
 
