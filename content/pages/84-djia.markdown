@@ -1,24 +1,23 @@
-﻿title: GDPToday
+﻿title: Dow Jones Industrial Average
 category: page
-slug: gdptoday
-sortorder: 0602
+slug: djia
+sortorder: 0604
 toc: True
-sidebartitle: &nbsp; 6.1 GDPToday
-meta: Bankcasting's daily tracker for GDP
+sidebartitle: &nbsp; 6.3 Dow Jones
+meta: Bankcasting's daily tracker for the Dow Jones Industrial Average
 
-# GDPToday
+# Dow Jones Tracker
 ---
 
-&#8729; GDPToday provides forecasted estimates for upcoming official GDP releases from the Bureau of Economic Analysis
+&#8729; The Bankcasting Dow Jones Industrial Average forecast provides future estimates for market trends
 
 &#8729; The forecast is updated every weekday that does not fall on a holiday
 
-&#8729; The current annualized estimate for 2018Q1 GDP as of March 27, 2018 is +2.44%. The current three-year forecast for GDP is +6.95%. The current three-year severe forecast for GDP is -5.54%.
+&#8729; The current three-year estimate for the Dow Jones as of March 27, 2018 is 26,579. The current three-year severe minimum estimate for the Dow Jones is 10,778.
 
 ---
 
-<img src="/img/GDPToday/GDPToday3Year.PNG" width="100%" alt="Latest GDPToday Three-year Forecast" class="technical-diagram">
-<img src="/img/GDPToday/GDPToday.PNG" width="100%" alt="Latest GDPToday Forecast" class="technical-diagram">
+<img src="/img/djia/dowjones.PNG" width="100%" alt="Latest Bankcasting Dow Jones Three-year Forecast" class="technical-diagram">
 
 
 For any questions, comments, or inquiries related to this topic or any other on this site please reach out to: contact@bankcasting.com
