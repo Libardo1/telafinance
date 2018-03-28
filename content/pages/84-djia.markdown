@@ -13,7 +13,7 @@ meta: Bankcasting's daily tracker for the Dow Jones Industrial Average
 
 &#8729; The forecast is updated every weekday that does not fall on a holiday
 
-&#8729; The current three-year estimate for the Dow Jones as of March 27, 2018 is 26,579. The current three-year severe minimum estimate for the Dow Jones is 10,778.
+&#8729; The current three-year estimate for the Dow Jones as of March 28, 2018 is 26,233. The current three-year severe minimum estimate for the Dow Jones is 10,636.
 
 ---
 

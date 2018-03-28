@@ -13,7 +13,7 @@ meta: Bankcasting's daily tracker for unemployment
 
 &#8729; The forecast is updated every weekday that does not fall on a holiday
 
-&#8729; The current estimate for unemployment as of March 27, 2018 is 4.06%. The current three-year average forecast for unemployment is 3.95%. The current three-year severe forecast for unemployment is 7.91%.
+&#8729; The current estimate for unemployment as of March 28, 2018 is 4.06%. The current three-year average forecast for unemployment is 3.94%. The current three-year severe forecast for unemployment is 7.91%.
 
 ---
 
