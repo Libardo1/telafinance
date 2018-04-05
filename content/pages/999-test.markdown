@@ -1,23 +1,41 @@
-﻿title: Dow Jones Industrial Average
+﻿title: Test
 category: page
-slug: djia
+slug: test
 sortorder: 0604
-toc: True
-sidebartitle: &nbsp; 6.3 Dow Jones
-meta: Bankcasting's daily tracker for the Dow Jones Industrial Average
+toc: False
+sidebartitle: Test
+meta: Test
 
-# Dow Jones Tracker
----
+# Test
 
-&#8729; The Bankcasting Dow Jones Industrial Average forecast provides future estimates for market trends
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
 
-&#8729; The forecast is updated every weekday that does not fall on a holiday
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
 
-&#8729; The current three-year estimate for the Dow Jones as of March 29, 2018 is 26,478. The current three-year severe minimum estimate for the Dow Jones is 10,679.
+      // Callback that creates and populates a data table, 
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+      
+        var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1Ytnw-1tPiuoru60Nkb00ulmwezpUQz_TQai_kmK6kl0/gviz/tq?sheet=Sheet1&tq=');
+        query.send(handleQueryResponse)
+      }
 
----
+      var options = {'title':'Dow Jones',  
+                     'width':600,
+                     'height':450};    
 
-<img src="/img/djia/dowjones.PNG" width="100%" alt="Latest Bankcasting Dow Jones Three-year Forecast" class="technical-diagram">
+      function handleQueryResponse(response) {
+        var data = response.getDataTable();
+        var chart = new google.visualization.LineChart(document.getElementById('div_chart'));
+        chart.draw(data, options);
+      }
+</script>
+
+<div id="div_chart" align="left" style="width:600; height:450"></div>
 
 For any questions, comments, or inquiries related to this topic or any other on this site please reach out to: contact@bankcasting.com
 
