@@ -8,34 +8,41 @@ meta: Test
 
 # Test
 
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<script type="text/javascript">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/jquery.csv.min.js"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
 
-      // Set a callback to run when the Google Visualization API is loaded.
-      google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
-
-      // Callback that creates and populates a data table, 
-      // instantiates the pie chart, passes in the data and
-      // draws it.
-      function drawChart() {
-      
-        var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1Ytnw-1tPiuoru60Nkb00ulmwezpUQz_TQai_kmK6kl0/gviz/tq?sheet=Sheet1&tq=');
-        query.send(handleQueryResponse)
-      }
-
-      var options = {'title':'Dow Jones',  
-                     'width':600,
-                     'height':450};    
-
-      function handleQueryResponse(response) {
-        var data = response.getDataTable();
-        var chart = new google.visualization.LineChart(document.getElementById('div_chart'));
-        chart.draw(data, options);
-      }
+<script type="text/javascript"> // load the visualisation API
+  google.load('visualization', '1', { packages: ['corechart', 'controls'] });
 </script>
 
-<div id="div_chart" align="left" style="width:600; height:450"></div>
+<script type="text/javascript">
+function drawVisualization() {
+   $.get("data/ifr.csv", function(csvString) {
+      // transform the CSV string into a 2-dimensional array
+      var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+      // this new DataTable object holds all the data
+      var data = new google.visualization.arrayToDataTable(arrayData);
+      // CAPACITY - En-route ATFM delay - YY - CHART
+      var chartwidth = $('#chartparent').width();
+      var crt_ertdlyYY = new google.visualization.ChartWrapper({
+         chartType: 'LineChart',
+         containerId: 'crt_ertdlyYY',
+         dataTable: data,
+         options:{
+            width: chartwidth, height: 450,
+            title: 'Dow Jones',
+            titleTextStyle : {color: 'grey', fontSize: 11},
+         }
+      });
+      crt_ertdlyYY.draw();
+   });
+}
+
+google.setOnLoadCallback(drawVisualization)
+</script>
+
+<div id="crt_ertdlyYY"></div>
 
 For any questions, comments, or inquiries related to this topic or any other on this site please reach out to: contact@bankcasting.com
 
