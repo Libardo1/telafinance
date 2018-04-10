@@ -18,12 +18,9 @@ meta: Test
 
 <script type="text/javascript">
 function drawVisualization() {
-   $.get("data/ifr.csv", function(csvString) {
-      // transform the CSV string into a 2-dimensional array
+   $.get("data/ifr.csv?q="+Math.random(), function(csvString) {
       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
-      // this new DataTable object holds all the data
       var data = new google.visualization.arrayToDataTable(arrayData);
-      // CAPACITY - En-route ATFM delay - YY - CHART
       var chartwidth = $('#chartparent').width();
       var crt_ertdlyYY = new google.visualization.ChartWrapper({
          chartType: 'LineChart',
@@ -31,8 +28,13 @@ function drawVisualization() {
          dataTable: data,
          options:{
             width: chartwidth, height: 450,
-            title: 'Dow Jones',
+            title: 'Bankcasting 2018Q1 GDP Daily Estimate',
+            legend: 'bottom',
             titleTextStyle : {color: 'grey', fontSize: 11},
+            vAxis: {viewWindow: {min: 0, max: 3.0}, format: '0.0'},
+            series: {
+               0: { color: '#529ecc' }
+            }
          }
       });
       crt_ertdlyYY.draw();
