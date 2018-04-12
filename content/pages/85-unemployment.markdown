@@ -1,9 +1,9 @@
 ﻿title: Unemployment
 category: page
 slug: unemployment
-sortorder: 0603
+sortorder: 0503
 toc: True
-sidebartitle: &nbsp; 6.2 Unemployment
+sidebartitle: &nbsp; 5.2 Unemployment
 meta: Bankcasting's daily tracker for unemployment
 
 # Unemployment Tracker

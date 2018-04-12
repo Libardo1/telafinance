@@ -1,9 +1,9 @@
 ﻿title: Dow Jones Industrial Average
 category: page
 slug: djia
-sortorder: 0604
+sortorder: 0504
 toc: True
-sidebartitle: &nbsp; 6.3 Dow Jones
+sidebartitle: &nbsp; 5.3 Dow Jones
 meta: Bankcasting's daily tracker for the Dow Jones Industrial Average
 
 # Dow Jones Tracker

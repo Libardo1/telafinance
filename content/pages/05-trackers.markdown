@@ -1,9 +1,9 @@
 ﻿title: Bankcasting Trackers
 category: page
 slug: trackers
-sortorder: 0601
+sortorder: 0501
 toc: True
-sidebartitle: 6. Trackers
+sidebartitle: 5. Trackers
 meta: Bankcasting trackers for GDP, banking metrics, and market data
 
 # Trackers
