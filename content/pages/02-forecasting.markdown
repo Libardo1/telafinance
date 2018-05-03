@@ -3,7 +3,7 @@ category: page
 slug: forecasting
 sortorder: 0201
 toc: True
-sidebartitle: 2. Forecasting
+sidebartitle: Forecasts
 meta: Introduction to Bankcasting's various forecasts.
 
 # Forecasting
