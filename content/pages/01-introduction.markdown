@@ -11,9 +11,13 @@ meta: Bankcasting provides plain language explanations for financial topics and 
 
 Bankcasting provides plain language explanations for banking topics and provides forecasts.
 
-The forecasting framework currently generates 148 separate banking metrics for the balance sheet, income statement, and capital components for the entire banking industry over nine-quarters under three separate scenarios defined by the Federal Reserve Board. These line items are aggregated to produce a forecast for market-wide capital ratios for the banking industry. 
-
 The forecasting and analysis framework drives the written content of this website. Articles feature commentary on both the future state of the banking sector and analysis on the past trends and relationships that have occured.
+
+---
+# Daily Commentary
+
+##<a href="/daily-commentary.html">May 7, 2018</a>
+Added the daily commentary page to provide a timely resource for the daily changes in the market and on Bankcasting. As more daily indicators are added, the commentary will become more extensive. The GDPToday forecast for 2018Q2 is down -0.08% from 3.04% to 2.96%.
 
 ---
 # Recommended Articles
