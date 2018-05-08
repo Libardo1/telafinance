@@ -6,6 +6,40 @@ toc: True
 sidebartitle: Introduction
 meta: Bankcasting provides plain language explanations for financial topics and provides forecasts.
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/jquery.csv.min.js"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+
+<script type="text/javascript"> // load the visualisation API
+  google.load('visualization', '1', { packages: ['corechart', 'controls'] });
+</script>
+<script type="text/javascript">
+function drawVisualization() {
+   $.get("data/gdp18q2.csv?q="+Math.random(), function(csvString) {
+      var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+      var data = new google.visualization.arrayToDataTable(arrayData);
+      var chartwidth = $('#chartparent').width();
+      var gdp18q2 = new google.visualization.ChartWrapper({
+         chartType: 'LineChart',
+         containerId: 'gdp18q2',
+         dataTable: data,
+         options:{
+            width: chartwidth, height: 450,
+            chartArea: {'width': '80%','height': '70%'},
+            title: 'Bankcasting 2018Q2 GDP Daily Estimate',
+            legend: 'bottom',
+            titleTextStyle : {color: 'black', fontSize: 20},
+            vAxis: {viewWindow: {min: 2.5, max: 3.5}, format: '0.0', title: 'Annualized Growth Rate (%)'},
+            series: {
+               0: { color: '#529ecc' }
+            }
+         }
+      });
+      gdp18q2.draw();
+   });
+}
+google.setOnLoadCallback(drawVisualization)
+</script>
 
 # Introduction
 
@@ -16,8 +50,15 @@ The forecasting and analysis framework drives the written content of this websit
 ---
 # Daily Commentary
 
-##<a href="/daily-commentary.html">May 7, 2018</a>
-Added the daily commentary page to provide a timely resource for the daily changes in the market and on Bankcasting. As more daily indicators are added, the commentary will become more extensive. The GDPToday forecast for 2018Q2 is down -0.08% from 3.04% to 2.96%.
+##<a href="/daily-commentary.html">May 8, 2018</a>
+The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is down -0.02% from 2.96% to 2.94%.
+
+---
+# Recommended Forecasts
+
+##<a href="/gdptoday.html">GDPToday</a>
+	
+<div id="gdp18q2" style="margin-top:-10px"></div>
 
 ---
 # Recommended Articles
