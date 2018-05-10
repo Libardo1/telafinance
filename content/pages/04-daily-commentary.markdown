@@ -14,6 +14,10 @@ This is a running list of daily updates, market commentary, or other thoughts on
 
 ### May
 
+May 10, 2018
+
+* The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is down -0.01% from 2.91% to 2.90%.
+
 May 9, 2018
 
 * The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is down -0.03% from 2.94% to 2.91%.

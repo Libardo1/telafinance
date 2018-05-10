@@ -41,27 +41,27 @@ function drawVisualization() {
 google.setOnLoadCallback(drawVisualization)
 </script>
 
-# Introduction
+## Introduction
 
 Bankcasting provides plain language explanations for banking topics and provides forecasts.
 
 The forecasting and analysis framework drives the written content of this website. Articles feature commentary on both the future state of the banking sector and analysis on the past trends and relationships that have occured.
 
 ---
-# Daily Commentary
+## Daily Commentary
 
-##<a href="/daily-commentary.html">May 9, 2018</a>
-The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is down -0.03% from 2.94% to 2.91%.
+###<a href="/daily-commentary.html">May 10, 2018</a>
+The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is down -0.01% from 2.91% to 2.90%.
 
 ---
-# Popular Forecasts
+## Latest Forecasts
 	
 <div id="gdp18q2" style="margin-top:-10px"></div>
 
 ---
-# Recommended Articles
+## Recommended Articles
 
-##<a href="/provision-analysis.html">Charge-offs, Provision, and ALLL
+###<a href="/provision-analysis.html">Charge-offs, Provision, and ALLL
 <img src="/img/provision-analysis/COversusProvisionversusALLL2017Q3.PNG" width="100%" alt="Net Charge-offs, Provision, and ALLL for the banking industry" class="technical-diagram"></a>
 &#8729; Credit losses are a critical driver of a bank's income statement 
 
@@ -71,7 +71,7 @@ The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is down -0.03% fro
 
 ---
 
-##<a href="/frb-gdp-analysis.html">GDP Analysis for the CCAR Scenarios
+###<a href="/frb-gdp-analysis.html">GDP Analysis for the CCAR Scenarios
 <img src="/img/frb-gdp-analysis/FRB2018RealGDPForecastJan2018AllScenarios.PNG" width="100%" alt="FRB CCAR 2018 Real GDP Forecast" class="technical-diagram"></a>
 &#8729; Each year, the Federal Reserve releases macroeconomic forecasts for the CCAR and DFAST regulatory exercises
 
@@ -81,7 +81,7 @@ The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is down -0.03% fro
 
 ---
 
-##<a href="/do-banks-scale.html">Could too-big-to-fail be good for banks?
+###<a href="/do-banks-scale.html">Could too-big-to-fail be good for banks?
 <img src="/img/do-banks-scale/EmployeesVsAssets2017Q2.PNG" width="100%" alt="Banking employees versus assets" class="technical-diagram"></a>
 &#8729; Large banks are often chided for their status of being “too-big-to-fail”
 
