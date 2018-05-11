@@ -50,8 +50,8 @@ The forecasting and analysis framework drives the written content of this websit
 ---
 ## Daily Commentary
 
-###<a href="/daily-commentary.html">May 10, 2018</a>
-The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is down -0.01% from 2.91% to 2.90%.
+###<a href="/daily-commentary.html">May 11, 2018</a>
+The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is unchanged at 2.90%.
 
 ---
 ## Latest Forecasts
