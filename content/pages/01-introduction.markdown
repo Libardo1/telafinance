@@ -15,27 +15,27 @@ meta: Bankcasting provides plain language explanations for financial topics and 
 </script>
 <script type="text/javascript">
 function drawVisualization() {
-   $.get("data/gdp18q2.csv?q="+Math.random(), function(csvString) {
+   $.get("data/gdp18q1.csv?q="+Math.random(), function(csvString) {
       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
       var data = new google.visualization.arrayToDataTable(arrayData);
       var chartwidth = $('#chartparent').width();
-      var gdp18q2 = new google.visualization.ChartWrapper({
+      var gdp18q1 = new google.visualization.ChartWrapper({
          chartType: 'LineChart',
-         containerId: 'gdp18q2',
+         containerId: 'gdp18q1',
          dataTable: data,
          options:{
             width: chartwidth, height: 450,
             chartArea: {'width': '80%','height': '70%'},
-            title: 'Bankcasting 2018Q2 GDP Daily Estimate',
+            title: 'Bankcasting 2018Q1 GDP Daily Estimate',
             legend: 'bottom',
             titleTextStyle : {color: 'black', fontSize: 20},
-            vAxis: {viewWindow: {min: 2.5, max: 3.5}, format: '0.0', title: 'Annualized Growth Rate (%)'},
+            vAxis: {viewWindow: {min: 2, max: 3}, format: '0.0', title: 'Annualized Growth Rate (%)'},
             series: {
                0: { color: '#529ecc' }
             }
          }
       });
-      gdp18q2.draw();
+      gdp18q1.draw();
    });
 }
 google.setOnLoadCallback(drawVisualization)
@@ -48,18 +48,7 @@ Bankcasting provides plain language explanations for banking topics and provides
 The forecasting and analysis framework drives the written content of this website. Articles feature commentary on both the future state of the banking sector and analysis on the past trends and relationships that have occured.
 
 ---
-## Daily Commentary
-
-###<a href="/daily-commentary.html">May 11, 2018</a>
-The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is unchanged at 2.90%.
-
----
-## Latest Forecasts
-	
-<div id="gdp18q2" style="margin-top:-10px"></div>
-
----
-## Recommended Articles
+## Recommended Content
 
 ###<a href="/provision-analysis.html">Charge-offs, Provision, and ALLL
 <img src="/img/provision-analysis/COversusProvisionversusALLL2017Q3.PNG" width="100%" alt="Net Charge-offs, Provision, and ALLL for the banking industry" class="technical-diagram"></a>
@@ -68,6 +57,11 @@ The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is unchanged at 2.
 &#8729; During downturns and times of stress, credit losses increase dramatically from baseline behavior, adversely affecting earnings and deteriorating capital
 
 &#8729; Understanding the interaction between charge-offs, provision, and ALLL in a bank's credit loss management process is essential to analyzing banking performance over time
+
+---
+
+###<a href="/gdptoday.html">GDPToday</a>
+<div id="gdp18q1" style="margin-top:0px"></div>
 
 ---
 
