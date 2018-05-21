@@ -14,6 +14,10 @@ This is a running list of daily updates, market commentary, or other thoughts on
 
 ### May
 
+May 21, 2018
+
+* The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is up +0.05 from 2.89% to 2.94%. The <a href="/bfsi.html">BFSI</a> dropped -0.002 from +0.498 on May 17, 2018 to +0.496 on May 18, 2018.
+
 May 18, 2018
 
 * The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is down -0.03 from 2.92% to 2.89%. The <a href="/bfsi.html">BFSI</a> dropped -0.007 from +0.505 on May 16, 2018 to +0.498 on May 17, 2018.
