@@ -14,6 +14,10 @@ This is a running list of daily updates, market commentary, or other thoughts on
 
 ### May
 
+May 28, 2018
+
+* Markets are closed for Memorial Day. The website has been streamlined to focus on the daily forecasts. The goal of the redesign is to provide information as efficiently as possible, especially as the amount of information is set to grow with future indicator launches. Previously posted content may return at some point down the road.
+
 May 25, 2018
 
 * The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is down -0.03% from 2.95% to 2.92%. The <a href="/bfsi.html">BFSI</a> increased +0.002 from +0.501 on May 23, 2018 to +0.503 on May 24, 2018.

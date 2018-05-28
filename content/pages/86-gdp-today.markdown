@@ -84,10 +84,3 @@ google.setOnLoadCallback(drawVisualization)
 <br>
 <div id="crt_ertdlyYY" style="margin-top:-10px"></div>
 <br>
-<!--
-<img src="/img/GDPToday/GDPToday3Year.PNG" width="100%" alt="Latest GDPToday Three-year Forecast" class="technical-diagram">
-<img src="/img/GDPToday/GDPToday.PNG" width="100%" alt="Latest GDPToday Forecast" class="technical-diagram">
--->
-
-
-For any questions, comments, or inquiries related to this topic or any other on this site please reach out to: contact@bankcasting.com

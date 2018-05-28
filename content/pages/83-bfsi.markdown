@@ -74,6 +74,3 @@ google.setOnLoadCallback(drawVisualization)
 <div id="bfsi2018" style="margin-top:0px"></div>
 <br>
 <div id="bfsi" style="margin-top:0px"></div>
-<br>
-
-For any questions, comments, or inquiries related to this topic or any other on this site please reach out to: contact@bankcasting.com
