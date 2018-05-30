@@ -15,27 +15,27 @@ meta: Bankcasting provides plain language explanations for financial topics and 
 </script>
 <script type="text/javascript">
 function drawVisualization() {
-   $.get("data/gdp18q1.csv?q="+Math.random(), function(csvString) {
+   $.get("data/gdp18q2.csv?q="+Math.random(), function(csvString) {
       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
       var data = new google.visualization.arrayToDataTable(arrayData);
       var chartwidth = $('#chartparent').width();
-      var gdp18q1 = new google.visualization.ChartWrapper({
+      var gdp18q2 = new google.visualization.ChartWrapper({
          chartType: 'LineChart',
-         containerId: 'gdp18q1',
+         containerId: 'gdp18q2',
          dataTable: data,
          options:{
             width: chartwidth, height: 450,
             chartArea: {'width': '80%','height': '70%'},
-            title: 'Bankcasting 2018Q1 GDP Daily Estimate',
+            title: 'Bankcasting 2018Q2 GDP Daily Estimate',
             legend: 'bottom',
             titleTextStyle : {color: 'black', fontSize: 20},
-            vAxis: {viewWindow: {min: 2, max: 3}, format: '0.0', title: 'Annualized Growth Rate (%)'},
+            vAxis: {viewWindow: {min: 2.5, max: 3.5}, format: '0.0', title: 'Annualized Growth Rate (%)'},
             series: {
                0: { color: '#529ecc' }
             }
          }
       });
-      gdp18q1.draw();
+      gdp18q2.draw();
    });
 }
 google.setOnLoadCallback(drawVisualization)
@@ -72,7 +72,7 @@ google.setOnLoadCallback(drawVisualization)
 ## Daily market forecasts driven by the latest financial data
 
 ###<a href="/gdptoday.html">GDPToday</a>
-<div id="gdp18q1" style="margin-top:0px"></div>
+<div id="gdp18q2" style="margin-top:0px"></div>
 
 ###<a href="/bfsi.html">Bankcasting Financial Stress Index</a>
 <div id="bfsi2018" style="margin-top:0px"></div>
