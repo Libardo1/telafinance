@@ -14,13 +14,17 @@ This is a running list of daily updates, market commentary, or other thoughts on
 
 ### May
 
+May 31, 2018
+
+* The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is up +0.14% from 2.81% to 2.95%. The <a href="/bfsi.html">BFSI</a> is unchanged from +0.502 on May 29, 2018 to +0.502 on May 30, 2018.
+
 May 30, 2018
 
 * The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is down -0.01% from 2.81% to 2.80%. The <a href="/bfsi.html">BFSI</a> is down -0.001 from +0.503 on May 25, 2018 to +0.502 on May 29, 2018.
 
 May 29, 2018
 
-* The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is down -0.11% from 2.92% to 2.81%. The <a href="/bfsi.html">BFSI</a> was unchanged from +0.503 on May 24, 2018 to +0.503 on May 25, 2018.
+* The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is down -0.11% from 2.92% to 2.81%. The <a href="/bfsi.html">BFSI</a> is unchanged from +0.503 on May 24, 2018 to +0.503 on May 25, 2018.
 
 May 28, 2018
 
