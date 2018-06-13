@@ -12,6 +12,10 @@ This is a running list of daily updates, market commentary, or other thoughts on
 
 ## 2018
 
+### June 13, 2018
+
+* The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is unchanged at 2.94%. The <a href="/bfsi.html">BFSI</a> is unchanged from +0.509 on June 11, 2018 to +0.509 on June 12, 2018.
+
 ### June 12, 2018
 
 * The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is up +0.03% from +2.91% to 2.94%. The <a href="/bfsi.html">BFSI</a> is down -0.001 from +0.510 on June 8, 2018 to +0.509 on June 11, 2018.
