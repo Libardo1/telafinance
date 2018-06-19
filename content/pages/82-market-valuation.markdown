@@ -1,10 +1,10 @@
-﻿title: Introduction
+﻿title: Bankcasting Stock Market Valuation Index
 category: page
-slug: introduction
-sortorder: 0101
+slug: market-valuation
+sortorder: 0203
 toc: True
-sidebartitle: Introduction
-meta: Bankcasting provides plain language explanations for financial topics and provides forecasts.
+sidebartitle: &nbsp; Stock Market Valuation Index
+meta: Bankcasting Stock Market Valuation Index
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="js/jquery.csv.min.js"></script>
@@ -15,55 +15,27 @@ meta: Bankcasting provides plain language explanations for financial topics and 
 </script>
 <script type="text/javascript">
 function drawVisualization() {
-   $.get("data/gdp18q2.csv?q="+Math.random(), function(csvString) {
+   $.get("data/mv.csv?q="+Math.random(), function(csvString) {
       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
       var data = new google.visualization.arrayToDataTable(arrayData);
       var chartwidth = $('#chartparent').width();
-      var gdp18q2 = new google.visualization.ChartWrapper({
+      var mv = new google.visualization.ChartWrapper({
          chartType: 'LineChart',
-         containerId: 'gdp18q2',
+         containerId: 'mv',
          dataTable: data,
          options:{
             width: chartwidth, height: 450,
             chartArea: {'width': '80%','height': '70%'},
-            title: 'Bankcasting 2018Q2 GDP Daily Estimate',
+            title: 'Bankcasting Stock Market Valuation Index',
             legend: 'bottom',
             titleTextStyle : {color: 'black', fontSize: 20},
-            vAxis: {viewWindow: {min: 2.5, max: 3.5}, format: '0.0', title: 'Annualized Growth Rate (%)'},
+            vAxis: {viewWindow: {min: -1, max: 1}, format: '0.00', title: 'Stock Market Valuation Index'},
             series: {
                0: { color: '#529ecc' }
             }
          }
       });
-      gdp18q2.draw();
-   });
-}
-google.setOnLoadCallback(drawVisualization)
-</script>
-
-<script type="text/javascript">
-function drawVisualization() {
-   $.get("data/bfsi2018.csv?q="+Math.random(), function(csvString) {
-      var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
-      var data = new google.visualization.arrayToDataTable(arrayData);
-      var chartwidth = $('#chartparent').width();
-      var bfsi2018 = new google.visualization.ChartWrapper({
-         chartType: 'LineChart',
-         containerId: 'bfsi2018',
-         dataTable: data,
-         options:{
-            width: chartwidth, height: 450,
-            chartArea: {'width': '80%','height': '70%'},
-            title: 'Bankcasting Financial Stress Index (2018)',
-            legend: 'bottom',
-            titleTextStyle : {color: 'black', fontSize: 20},
-            vAxis: {viewWindow: {min: 0, max: .75}, format: '0.0', title: 'Financial Stress Index'},
-            series: {
-               0: { color: '#529ecc' }
-            }
-         }
-      });
-      bfsi2018.draw();
+      mv.draw();
    });
 }
 google.setOnLoadCallback(drawVisualization)
@@ -97,13 +69,8 @@ function drawVisualization() {
 google.setOnLoadCallback(drawVisualization)
 </script>
 
-## Daily market forecasts driven by the latest financial data
+# Stock Market Valuation Index
 
-###<a href="/gdptoday.html">GDPToday</a>
-<div id="gdp18q2" style="margin-top:0px"></div>
-
-###<a href="/market-valuation.html">Stock Market Valuation Index</a>
 <div id="mv2018" style="margin-top:0px"></div>
-
-###<a href="/bfsi.html">Bankcasting Financial Stress Index</a>
-<div id="bfsi2018" style="margin-top:0px"></div>
+<br>
+<div id="mv" style="margin-top:0px"></div>

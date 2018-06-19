@@ -12,6 +12,10 @@ This is a running list of daily updates, market commentary, or other thoughts on
 
 ## 2018
 
+### June 18, 2018
+
+* Launched a new index for <a href="market-valuation.html">stock market valuation</a>. The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is down -0.03% from +2.99% to 2.96%. The <a href="/bfsi.html">BFSI</a> is up +0.001 from +0.511 on June 14, 2018 to +0.512 on June 15, 2018.
+
 ### June 15, 2018
 
 * The <a href="/gdptoday.html">GDPToday</a> forecast for 2018Q2 is up +0.01% from +2.98% to 2.99%. The <a href="/bfsi.html">BFSI</a> is up +0.001 from +0.510 on June 13, 2018 to +0.511 on June 14, 2018.
