@@ -25,11 +25,9 @@ function drawVisualization() {
          dataTable: data,
          options:{
             width: chartwidth, height: 450,
-            chartArea: {'width': '80%','height': '70%'},
-            title: 'Bankcasting 2018Q2 GDP Daily Estimate',
+            chartArea: {'width': '77%','height': '80%',top:20},
             legend: 'bottom',
-            titleTextStyle : {color: 'black', fontSize: 20},
-            vAxis: {viewWindow: {min: 2.5, max: 3.5}, format: '0.0', title: 'Annualized Growth Rate (%)'},
+            vAxis: {viewWindow: {min: 2.5, max: 3.5}, format: '0.00', title: 'Annualized Growth Rate (%)'},
             series: {
                0: { color: '#529ecc' }
             }
@@ -53,11 +51,9 @@ function drawVisualization() {
          dataTable: data,
          options:{
             width: chartwidth, height: 450,
-            chartArea: {'width': '80%','height': '70%'},
-            title: 'Bankcasting Financial Stress Index (2018)',
+            chartArea: {'width': '77%','height': '80%',top:20},
             legend: 'bottom',
-            titleTextStyle : {color: 'black', fontSize: 20},
-            vAxis: {viewWindow: {min: 0, max: .75}, format: '0.0', title: 'Financial Stress Index'},
+            vAxis: {viewWindow: {min: 0, max: .75}, format: '0.00', title: 'Financial Stress Index'},
             series: {
                0: { color: '#529ecc' }
             }
@@ -81,11 +77,9 @@ function drawVisualization() {
          dataTable: data,
          options:{
             width: chartwidth, height: 450,
-            chartArea: {'width': '80%','height': '70%'},
-            title: 'Bankcasting Stock Market Valuation Index (2018)',
+            chartArea: {'width': '77%','height': '80%',top:20},
             legend: 'bottom',
-            titleTextStyle : {color: 'black', fontSize: 20},
-            vAxis: {viewWindow: {min: 0, max: .5}, format: '0.00', title: 'Stock Market Valuation Index'},
+            vAxis: {viewWindow: {min: 0, max: .45}, format: '0.00', title: 'Stock Market Valuation Index'},
             series: {
                0: { color: '#529ecc' }
             }
@@ -99,11 +93,11 @@ google.setOnLoadCallback(drawVisualization)
 
 ## Daily market forecasts driven by the latest financial data
 
-###<a href="/gdptoday.html">GDPToday</a>
+###<a href="/gdptoday.html">GDPToday (2018Q2)</a>
 <div id="gdp18q2" style="margin-top:0px"></div>
 
-###<a href="/market-valuation.html">Stock Market Valuation Index</a>
+###<a href="/market-valuation.html">Stock Market Valuation Index (2018 YTD)</a>
 <div id="mv2018" style="margin-top:0px"></div>
 
-###<a href="/bfsi.html">Bankcasting Financial Stress Index</a>
+###<a href="/bfsi.html">Bankcasting Financial Stress Index (2018 YTD)</a>
 <div id="bfsi2018" style="margin-top:0px"></div>

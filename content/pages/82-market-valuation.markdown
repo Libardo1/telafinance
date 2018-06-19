@@ -29,7 +29,7 @@ function drawVisualization() {
             title: 'Bankcasting Stock Market Valuation Index',
             legend: 'bottom',
             titleTextStyle : {color: 'black', fontSize: 20},
-            vAxis: {viewWindow: {min: -1, max: 1}, format: '0.00', title: 'Stock Market Valuation Index'},
+            vAxis: {viewWindow: {min: -1, max: 1}, format: '0.0', title: 'Stock Market Valuation Index'},
             series: {
                0: { color: '#529ecc' }
             }
@@ -57,7 +57,7 @@ function drawVisualization() {
             title: 'Bankcasting Stock Market Valuation Index (2018)',
             legend: 'bottom',
             titleTextStyle : {color: 'black', fontSize: 20},
-            vAxis: {viewWindow: {min: 0, max: .5}, format: '0.00', title: 'Stock Market Valuation Index'},
+            vAxis: {viewWindow: {min: 0, max: .5}, format: '0.0', title: 'Stock Market Valuation Index'},
             series: {
                0: { color: '#529ecc' }
             }
