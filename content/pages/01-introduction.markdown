@@ -25,7 +25,7 @@ function drawVisualization() {
          dataTable: data,
          options:{
             width: chartwidth, height: 450,
-            chartArea: {'width': '77%','height': '80%',top:20},
+            chartArea: {'width': '75%','height': '80%',top:20},
             legend: 'bottom',
             vAxis: {viewWindow: {min: 2.5, max: 3.5}, format: '0.00', title: 'Annualized Growth Rate (%)'},
             series: {
@@ -51,7 +51,7 @@ function drawVisualization() {
          dataTable: data,
          options:{
             width: chartwidth, height: 450,
-            chartArea: {'width': '77%','height': '80%',top:20},
+            chartArea: {'width': '75%','height': '80%',top:20},
             legend: 'bottom',
             vAxis: {viewWindow: {min: 0, max: .75}, format: '0.00', title: 'Financial Stress Index'},
             series: {
@@ -77,7 +77,7 @@ function drawVisualization() {
          dataTable: data,
          options:{
             width: chartwidth, height: 450,
-            chartArea: {'width': '77%','height': '80%',top:20},
+            chartArea: {'width': '75%','height': '80%',top:20},
             legend: 'bottom',
             vAxis: {viewWindow: {min: 0, max: .45}, format: '0.00', title: 'Stock Market Valuation Index'},
             series: {
