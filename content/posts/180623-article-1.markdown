@@ -1,0 +1,12 @@
+title: Article 1
+slug: article-1
+category: post
+date: 2018-06-23
+modified: 2018-06-23
+newsletter: False
+meta: Tela articles provide detailed historical and future analysis of the market.
+headerimage: /img/logo.png
+headeralt: Article Logo
+
+
+The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.

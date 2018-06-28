@@ -8,9 +8,16 @@
 
 {% block content %}
 <div class="row">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8">
+	{% if page.slug == "introduction" %}
+		{% for article in articles %}
+			{{ article.title }}
+			{{ article.content }}
+		{% endfor %}
+	{% endif %}
           {{ page.content }}
           {% include "choices/" + page.slug + ".html" %}
     </div>
+    {% include "sidebar.html" %}
 </div>
 {% endblock %}

@@ -1,10 +1,10 @@
-﻿title: Bankcasting Stock Market Valuation Index
+﻿title: Tela Stock Market Valuation Index
 category: page
 slug: market-valuation
 sortorder: 0203
 toc: True
 sidebartitle: &nbsp; Stock Market Valuation Index
-meta: Bankcasting Stock Market Valuation Index
+meta: Tela Stock Market Valuation Index
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="js/jquery.csv.min.js"></script>
@@ -26,7 +26,7 @@ function drawVisualization() {
          options:{
             width: chartwidth, height: 450,
             chartArea: {'width': '75%','height': '70%'},
-            title: 'Bankcasting Stock Market Valuation Index',
+            title: 'Tela Stock Market Valuation Index',
             legend: 'bottom',
             titleTextStyle : {color: 'black', fontSize: 20},
             vAxis: {viewWindow: {min: -1, max: 1}, format: '0.00', title: 'Stock Market Valuation Index'},
@@ -54,7 +54,7 @@ function drawVisualization() {
          options:{
             width: chartwidth, height: 450,
             chartArea: {'width': '75%','height': '70%'},
-            title: 'Bankcasting Stock Market Valuation Index (2018)',
+            title: 'Tela Stock Market Valuation Index (2018)',
             legend: 'bottom',
             titleTextStyle : {color: 'black', fontSize: 20},
             vAxis: {viewWindow: {min: 0, max: .5}, format: '0.00', title: 'Stock Market Valuation Index'},

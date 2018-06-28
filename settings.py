@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 AUTHOR = u''
-SITENAME = u'Bankcasting'
-SITEURL = 'http://www.bankcasting.com'
+SITENAME = u'Tela'
+SITEURL = 'http://www.telafinance.com'
 TIMEZONE = 'America/New_York'
 
 PDF_GENERATOR = False
@@ -13,16 +13,16 @@ ARTICLE_SAVE_AS = 'blog/{slug}.html'
 
 SITEMAP_SAVE_AS = 'sitemap.xml'
 
-FEED_DOMAIN = 'http://www.bankcasting.com'
+FEED_DOMAIN = 'http://www.telafinance.com'
 FEED_RSS = 'feed'
 
-BYLINE = '&copy; 2017 Luke Makai. All Rights Reserved.'
+BYLINE = '&copy; 2018. All Rights Reserved.'
 LINKS = ()
 
 MARKUP = ('rst', 'markdown',)
 
 SOCIAL = (
-    ('Email', 'mailto:pr@bankcasting.com'),
+    ('Email', 'mailto:contact@telafinance.com'),
 )
 
 PROJECTS = ()

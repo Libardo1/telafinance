@@ -2,7 +2,7 @@
 
 {% block content %}
 <div class="row">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8">
         {% for page in pages|sort(attribute='sortorder') %}
           {{ page.content }}
         {% endfor %}

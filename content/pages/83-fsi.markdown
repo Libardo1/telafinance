@@ -1,10 +1,10 @@
-﻿title: Bankcasting Financial Stress Index
+﻿title: Tela Financial Stress Index
 category: page
-slug: bfsi
+slug: fsi
 sortorder: 0203
 toc: True
 sidebartitle: &nbsp; Financial Stress Index
-meta: Bankcasting's Financial Stress Index
+meta: Tela's Financial Stress Index
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="js/jquery.csv.min.js"></script>
@@ -26,7 +26,7 @@ function drawVisualization() {
          options:{
             width: chartwidth, height: 450,
             chartArea: {'width': '80%','height': '70%'},
-            title: 'Bankcasting Financial Stress Index',
+            title: 'Tela Financial Stress Index',
             legend: 'bottom',
             titleTextStyle : {color: 'black', fontSize: 20},
             vAxis: {viewWindow: {min: -2, max: 4}, format: '0.0', title: 'Financial Stress Index'},
@@ -43,18 +43,18 @@ google.setOnLoadCallback(drawVisualization)
 
 <script type="text/javascript">
 function drawVisualization() {
-   $.get("data/bfsi2018.csv?q="+Math.random(), function(csvString) {
+   $.get("data/fsi2018.csv?q="+Math.random(), function(csvString) {
       var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
       var data = new google.visualization.arrayToDataTable(arrayData);
       var chartwidth = $('#chartparent').width();
-      var bfsi2018 = new google.visualization.ChartWrapper({
+      var fsi2018 = new google.visualization.ChartWrapper({
          chartType: 'LineChart',
-         containerId: 'bfsi2018',
+         containerId: 'fsi2018',
          dataTable: data,
          options:{
             width: chartwidth, height: 450,
             chartArea: {'width': '80%','height': '70%'},
-            title: 'Bankcasting Financial Stress Index (2018)',
+            title: 'Tela Financial Stress Index (2018)',
             legend: 'bottom',
             titleTextStyle : {color: 'black', fontSize: 20},
             vAxis: {viewWindow: {min: 0, max: .75}, format: '0.0', title: 'Financial Stress Index'},
@@ -63,14 +63,14 @@ function drawVisualization() {
             }
          }
       });
-      bfsi2018.draw();
+      fsi2018.draw();
    });
 }
 google.setOnLoadCallback(drawVisualization)
 </script>
 
-# Bankcasting Financial Stress Index
+# Tela Financial Stress Index
 
-<div id="bfsi2018" style="margin-top:0px"></div>
+<div id="fsi2018" style="margin-top:0px"></div>
 <br>
 <div id="bfsi" style="margin-top:0px"></div>

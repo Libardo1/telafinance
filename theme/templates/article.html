@@ -14,10 +14,10 @@
 {% block content %}
 {% if article %}
   <div class="row">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8">
       <h1 style="font-size: 36px;">{{ article.title }}</h1>
       <div class="post-byline">
-        Posted by <a href="/about-author.html">Luke Makai</a> on 
+        Posted by <a href="/about.html">Tela</a> on 
         {{ article.date.strftime('%B %d, %Y') }}.
         {% if article.modified != article.date %}Last updated
         {{ article.modified.strftime('%B %d, %Y') }}.{% endif %}
@@ -31,6 +31,7 @@
     </div>
     <div class="col-md-offset-1 col-md-3">
     </div>
+    {% include "index-sidebar.html" %}
   </div>
 {% endblock %}
 

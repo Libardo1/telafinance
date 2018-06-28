@@ -1,10 +1,10 @@
-﻿title: GDPToday
+﻿title: GDP
 category: page
-slug: gdptoday
+slug: gdp
 sortorder: 0202
 toc: True
-sidebartitle: &nbsp; GDPToday
-meta: Bankcasting's daily tracker for GDP
+sidebartitle: &nbsp; GDP
+meta: Tela's daily tracker for GDP
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="js/jquery.csv.min.js"></script>
@@ -26,7 +26,7 @@ function drawVisualization() {
          options:{
             width: chartwidth, height: 450,
             chartArea: {'width': '80%','height': '70%'},
-            title: 'Bankcasting 2018Q2 GDP Daily Estimate',
+            title: 'Tela 2018Q2 GDP Daily Estimate',
             legend: 'bottom',
             titleTextStyle : {color: 'black', fontSize: 20},
             vAxis: {viewWindow: {min: 2.5, max: 3.5}, format: '0.0', title: 'Annualized Growth Rate (%)'},
@@ -54,7 +54,7 @@ function drawVisualization() {
          options:{
             width: chartwidth, height: 450,
             chartArea: {'width': '80%','height': '70%'},
-            title: 'Bankcasting 2018Q1 GDP Daily Estimate',
+            title: 'Tela 2018Q1 GDP Daily Estimate',
             legend: 'bottom',
             titleTextStyle : {color: 'black', fontSize: 20},
             vAxis: {viewWindow: {min: 2, max: 3}, format: '0.0', title: 'Annualized Growth Rate (%)'},
@@ -72,11 +72,11 @@ google.setOnLoadCallback(drawVisualization)
 # GDPToday
 ---
 
-&#8729; GDPToday provides forecasted estimates for upcoming official GDP releases from the Bureau of Economic Analysis
+&#8729; Tela provides forecasted estimates for upcoming official GDP releases from the Bureau of Economic Analysis
 
 &#8729; The forecast is updated every weekday that does not fall on a holiday
 
-&#8729; The official first estimate for 2018Q2 GDP from the BEA will be released on July 27, 2018. <!--The current annualized estimate for 2018Q1 GDP as of March 29, 2018 is +2.63%. The current three-year forecast for GDP is +7.61%. The current three-year severe forecast for GDP is -4.98%. -->
+&#8729; The official first estimate for 2018Q2 GDP from the BEA will be released on July 27, 2018.
 
 ---
 
