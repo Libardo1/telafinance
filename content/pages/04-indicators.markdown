@@ -44,5 +44,3 @@ google.setOnLoadCallback(drawVisualization)
 
 ###<a href="/fsi.html">Tela Financial Stress Index (2018 YTD)</a>
 <div id="fsi2018" style="margin-top:0px"></div>
-
-<img src="/img/indicators.PNG" width="100%" alt="Latest and upcoming indicator releases" class="data-table"></a>
