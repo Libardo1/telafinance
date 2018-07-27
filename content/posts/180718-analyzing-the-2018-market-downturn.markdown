@@ -1,5 +1,5 @@
-title: Analyzing the 2018 Market Recovery
-slug: analyzing-the-2018-market-recovery
+title: Analyzing the 2018 Market Downturn
+slug: analyzing-the-2018-market-downturn
 category: post
 date: 2018-07-18
 modified: 2018-07-18
