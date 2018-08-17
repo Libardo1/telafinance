@@ -28,7 +28,7 @@
             {% if a.modified != a.date %}Last updated 
             {{ a.modified.strftime('%B %d, %Y') }}.{% endif %}
         </div>
-        {{ a.content|truncate(350) }} (<a href="/blog/{{ a.slug }}.html">read more</a>)
+        {{ a.content|truncate(210) }} (<a href="/blog/{{ a.slug }}.html">read more</a>)
         {% if a.headerimage and a.headeralt %}
           </div>
         </div>
