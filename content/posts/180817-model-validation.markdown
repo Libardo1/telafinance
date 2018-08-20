@@ -5,7 +5,7 @@ date: 2018-08-17
 modified: 2018-08-17
 newsletter: False
 meta:  An introduction to model validation, a critical aspect of the risk management framework.
-headerimage: /img/model-validation/Validation.PNG
+headerimage: /img/model-validation/Validation.png
 headeralt: Model Validation
 
 Model validation is as critical to the <a href="/blog/understanding-the-model-lifecycle.html">model lifecycle</a> as development and maintenance. This article covers some considerations a model validator should consider when assessing a model's performance and risk including development process, overall soundness, and limitations.
