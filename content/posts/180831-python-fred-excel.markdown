@@ -23,8 +23,8 @@ The first step is to obtain an API key. Register for a free FRED account and cli
 If you are an excel addict who doesn't have Python, it can be easily downloaded <a href="https://www.python.org/downloads/">here</a>. Once installed, the following lines in the command console can install the two packages required for the API requests: pandas and fredapi.
 
 ```python
-pip install pandas
-pip install fredapi
+pip install pandas==0.23.4
+pip install fredapi==0.4.1
 ```
 
 ## Writing code
@@ -82,7 +82,7 @@ df.to_csv('data.csv', index=False)
 
 In this example, the data output is organized by observation date. So, the data in the .csv output file should look like the image below.
 
-<img src="/img/python-fred-excel/exceldata.png" width="100%" alt="Excel Data Output Python API" class="technical-diagram">
+<img src="/img/python-fred-excel/exceldata.PNG" width="100%" alt="Excel Data Output Python API" class="technical-diagram">
 
 While this format is different than the excel add-in, from experience it is more useful as each row is linked to a specific date, which becomes more important as the dataset grows with additional pulls beyond three time series. This format is also advantageous in that a quick index match formula based on static columns can automatically update as refreshed runs of the script bring in new data.
 
