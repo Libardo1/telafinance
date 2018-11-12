@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block meta_header %}
-<meta name="description" content="A blog with tutorials for finance developers.">
+<meta name="description" content="A blog with articles for finance professionals.">
 {% endblock %}
 
 {% block title %}Blog - {% endblock %}
@@ -23,10 +23,6 @@
         {% endif %}
         <h2 style="padding-top: 0px; margin-top: 0px;"><a href="/blog/{{ a.slug }}.html">{{ a.title }}</a></h2>
         <div class="post-byline">
-            Posted by <a href="/about.html">Tela</a> on 
-            {{ a.date.strftime('%B %d, %Y') }}.
-            {% if a.modified != a.date %}Last updated 
-            {{ a.modified.strftime('%B %d, %Y') }}.{% endif %}
         </div>
         {{ a.content|truncate(210) }} (<a href="/blog/{{ a.slug }}.html">read more</a>)
         {% if a.headerimage and a.headeralt %}

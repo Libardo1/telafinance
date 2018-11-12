@@ -16,7 +16,7 @@
         {% endfor %}
 
 	{% for a in articles %}
-	{% if loop.index < 4 %}
+	{% if loop.index < 5 %}
 	{% if a.headerimage and a.headeralt %}
         <div class="row" style="padding-top: 30px;">
           <div class="col-md-3">
@@ -26,10 +26,6 @@
         {% endif %}
         <h2 style="padding-top: 0px; margin-top: 0px;"><a href="/blog/{{ a.slug }}.html">{{ a.title }}</a></h2>
         <div class="post-byline">
-            Posted by <a href="/about.html">Tela</a> on 
-            {{ a.date.strftime('%B %d, %Y') }}.
-            {% if a.modified != a.date %}Last updated 
-            {{ a.modified.strftime('%B %d, %Y') }}.{% endif %}
         </div>
         {{ a.content|truncate(210) }} (<a href="/blog/{{ a.slug }}.html">read more</a>)
         {% if a.headerimage and a.headeralt %}
@@ -38,6 +34,8 @@
         {% endif %}
 	{% endif %}
 	{% endfor %}
+        <br>
+        <center><a href="/blog.html"><img src="/img/more-articles.PNG" width="50%" alt="More Articles"></a>
     </div>
     {% include "index-sidebar.html" %}
 </div>

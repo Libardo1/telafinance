@@ -6,11 +6,17 @@ toc: True
 sidebartitle: About
 meta: About Tela
 
-# About
+## About Tela
 
 Tela provides quantitative analysis on the current, past, and future state of the market and banking sector. Tela produces this analysis with independence and objectivity for the benefit of individuals within the finance profession and for those outside of the industry seeking to learn more about the market.
 
 Given the pace of change within the industry during times of stress, forecasted analysis is an essential risk management technique to anticipate and prepare for adverse conditions. While the future is uncertain, the material within Tela may be helpful to those seeking a quantitative approach to assessing potential future developments.
+
+## About the Author
+
+I am a banking professional coming up on six years of consulting and industry work developing financial models and forecasts. I started this website so I could post analysis and thoughts on topics that interest me outside of my regular work to share with friends and peers.
+
+I am always happy to connect with readers on topics related to the site or otherwise. Please reach out to the contact email below if you wish to get in touch.
 
 ## Disclaimer
 
